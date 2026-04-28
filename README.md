@@ -2,7 +2,6 @@
 ActiveAnno is a web-based, responsive, highly configurable open source document annotation tool.
 
 <!-- TOC -->
-- [Demo](#demo)
 - [Quick start](#quick-start)
 - [Use cases](#use-cases)
 - [API](#api)
@@ -13,16 +12,8 @@ ActiveAnno is a web-based, responsive, highly configurable open source document 
 - [Frontend](#frontend)
 - [Roadmap](#roadmap)
 - [Browser compatibility](#browser-compatibility)
-- [Author](#author)
-- [License](#license)
 
 <!-- /TOC -->
-## Demo
-### Live Demo
-The current running demo can be found here: http://ltdemos.informatik.uni-hamburg.de/activeanno. Please use the login credentials username "testuser", password "testuser". Since the location of where the demo is running might change in the future, it will always be referenced here in the Github Readme.
-### Demo Video
-https://youtu.be/ryCi4XeReDg
-
 ## Quick start
 Use `docker-compose` to start the application with frontend, backend and the database. Run the following command from the top
 level directory of the project:
@@ -288,7 +279,6 @@ Lastly, there is the success color which is normally a kind of green.
 
 ## Backend
 The backend is written in Kotlin using the Ktor framework.
-The Dokka (JavaDoc equivalent) can be found on [Github pages](https://maxmello.github.io/ActiveAnno/activeannoservice/).
 To update the Dokka documentation, execute `./gradlew dokka`. This will save the markdown files directly in the /docs path. Then commit the changes
 inside the /docs folder and push to github to update the Github pages site.
 
@@ -344,12 +334,4 @@ ActiveAnno is under active development in open source.
 WebAnno was mainly developed with Firefox, but it was also tested in an up-to-date version of Chrome and Safari.
 
 ## Contributing
-
 Please submit any issues as Github issues in this repository. You are invited to submit merge requests to contribute to this project.
-
-## Author
-
-* **Max Wiechmann** [Twitter](https://twitter.com/maxmello)
-
-## License
-MIT
